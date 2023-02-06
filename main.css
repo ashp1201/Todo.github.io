@@ -236,6 +236,17 @@ input:checked ~ .bubble::after{
     color: var(--grey);
 }
 
+.local
+{
+    margin: 0;
+    padding: 3px;
+    background: var(--primary);
+    color: black;
+}
+.local:hover{
+    opacity: 50%;
+}
+
 @media only screen and (min-width:200px) and (max-width:392px)
         {
             .edit{
