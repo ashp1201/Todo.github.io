@@ -236,6 +236,14 @@ input:checked ~ .bubble::after{
     color: var(--grey);
 }
 
-
+@media only screen and (min-width:200px) and (max-width:392px)
+        {
+            .edit{
+                transform: translate(-30px);
+            }
+            .delete{
+                transform:translate(-30px);
+            }
+        }
 
 
