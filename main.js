@@ -144,3 +144,7 @@ window.addEventListener('load',()=>{ //Excute By Loading
         
     })
 }
+const local =document.querySelector('.local');
+local.addEventListener('click',()=>{
+  localStorage.clear();
+})
